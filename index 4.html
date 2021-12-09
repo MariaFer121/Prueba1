@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tienda</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <header> <!--Encabezado-->
+        <div class="p-5 bg-danger text-white text-center" >
+            <h1>Tienda</h1> 
+            <img src="Imagen_2_400x400.png" class="rounded-circle" alt="Cinque Terre" width="200" height="200">
+          </div>
+
+    </header>
+    
+    <!--menu de navegacion-->
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_f%C3%BAtbol_femenino_de_Chile">Historia</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link active" href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_femenina_de_f%C3%BAtbol_de_Chile">Seleccion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_F%C3%BAtbol_Femenino_2021_(Chile)">Primera Division</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index2.html">Trofeos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index3.html">Contacto</a>
+            </li>
+    <!--Productos-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h3>Productos</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="polera U.png" width="500" height="300"></li>
+                                    <li>Polera Oficial Femenina Universidad de Chile</li>
+                                    <li>$24.990</li>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="pol.jfif"width="500" height="300"></li>
+                                    <li>Polera Oficial Femenina Seleccion Chilena</li>
+                                    <li>$24.990</li>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="buzojfif.jfif"width="500" height="300"></li>
+                                    <li>Buzo Deportivo</li>
+                                    <li>$34.990</li>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="ccoo.jpg"width="500" height="300"></li>
+                                    <li>Polera Oficial Femenina Colo Colo</li>
+                                    <li>$24.990</li>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="set.jpg"width="500" height="300"></li>
+                                    <li>Set Arquera</li>
+                                    <li>$41.990</li>
+                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <li><img src="BALÓN_OK (2).jpg"width="500" height="300"></li>
+                                    <li>Balon Oficial</li>
+                                    <li>$34.990</li>
+                                
+                            </td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h1 style="text-align: center;">Formulario de Compra</h1>
+            <form action="index 4.html" method="get">
+                <table border="1">
+                    
+                    
+                <tr>
+                    <td>Ingrese Nombre</td>
+                    <td><input type="text" name="nom" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Ingrese Rut</td>
+                    <td><input type="text" name="rut"></td>
+                </tr>
+                <tr>
+                    <td>Producto Deseado</td>
+                    <td>
+                        <select name="Produto">
+                            <option>Polera Oficial Femenina Universidad de Chile</option>
+                            <option>Polera Oficial Femenina Seleccion Chilena</option>
+                            <option>Buzo Deportivo</option>
+                            <option>Polera Oficial Femenina Colo Colo</option>
+                            <option>Set Arquera</option>
+                            <option>Balon Oficial</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cantidad de producto</td>
+                    <td><input type="number" name="num" min="1" max="50"value="1"></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" name="mail"></td>
+                </tr>
+                <tr>
+                    <td>Comentario</td>
+                    <td><textarea name="obj" rows="9" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input type="submit" name="boton" value="Comprar"></td>
+                </tr>
+                </table>
+                </form>
+                <div padding: 20px; margin-top:7px; text-align: center >
+                    <footer style="text-align: center;">
+                      <h4>Final de la Paguina</h4>
+                    </footer>
+                </div>
+    
+          </div>
+    </div>
+    <!--Footer-->
+   
+    
+</body>
+</html>
